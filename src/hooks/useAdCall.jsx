@@ -38,6 +38,7 @@ const useAdCall = () => {
       dispatch(fetchFail());
     }
   };
+  //////******************   Acilis Neu */
   const neue = async () => {
     try {
       const { data } = await axiosWithToken(`${BASE_URL}ad/neue`);
