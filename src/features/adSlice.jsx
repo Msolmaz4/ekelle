@@ -59,7 +59,6 @@ const adSlice = createSlice({
       state.searchNav = payload;
       // console.log(state.searchNav,"SLICE NAVBAR SEARCH")
     },
-
     fetchFail: (state) => {
       state.loading = false;
       state.error = true;
